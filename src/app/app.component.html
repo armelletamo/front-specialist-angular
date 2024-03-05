@@ -177,9 +177,12 @@
   }
 </style>
 
-<main class="main">
-  <div class="content">
-    <app-cities></app-cities>
+<main class="main" >
+  <div class="content" >
+    <div class="flex">
+      <app-cities class="col-span-4 " [country]="'TUNISIA'" [temp]="'20°'" [tempMax]="'26'" [tempMin]="'18'" [weather]="'CLOUDY'"></app-cities>
+      <app-cities class="col-span-4 ml-10" [country]="'FINLAND'" [temp]="'10°'" [tempMax]="'12'" [tempMin]="'-15'" [weather]="'SNOWING'"></app-cities>
+    </div>
     <!-- <div class="left-side">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -334,4 +337,4 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
-<router-outlet />
+<router-outlet  />
