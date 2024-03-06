@@ -9,15 +9,9 @@ import { City } from '../../../models/city';
   styleUrl: './add-city-weather.component.scss'
 })
 export class AddCityWeatherComponent {
-  @Output() onAddCityWeather = new EventEmitter<City>();
+  @Output() onAddCityWeather = new EventEmitter<void>();
+
   addCityWeather() {
-    let newCityWeather = {
-      name: 'Cameroon',
-      temperature: '28°',
-      description: 'Sunny',
-      minTemp: '22°',
-      maxTemp: '30°',
-    }
-    this.onAddCityWeather.emit(newCityWeather);
+    this.onAddCityWeather.emit();
   }
 }

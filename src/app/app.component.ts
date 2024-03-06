@@ -24,8 +24,8 @@ export class AppComponent {
     });
   }
 
-  handleAddCityWeather(data: City) {
-    this.weatherCityService.addCityWeatherData(data);
+  handleAddCityWeather() {
+    this.weatherCityService.addCityWeatherData();
   }
 
 }

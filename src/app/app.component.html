@@ -216,7 +216,7 @@
   <div class="content">
     <div class="flex justify-center space-x-16">
       <app-city-weather *ngFor="let city of cities" [city]="city"></app-city-weather>
-      <app-add-city-weather (onAddCityWeather)="handleAddCityWeather($event)"></app-add-city-weather>
+      <app-add-city-weather (onAddCityWeather)="handleAddCityWeather()"></app-add-city-weather>
     </div>
     <!-- <div class="left-side">
       <svg
