@@ -9,7 +9,7 @@ import { City } from '../../../models/city';
   styleUrl: './add-city-weather.component.scss'
 })
 export class AddCityWeatherComponent {
-  @Output() onAddCity = new EventEmitter<City>();
+  @Output() onAddCityWeather = new EventEmitter<City>();
   addCityWeather() {
     let newCityWeather = {
       name: 'Cameroon',
@@ -18,6 +18,6 @@ export class AddCityWeatherComponent {
       minTemp: '22°',
       maxTemp: '30°',
     }
-    this.onAddCity.emit(newCityWeather);
+    this.onAddCityWeather.emit(newCityWeather);
   }
 }
