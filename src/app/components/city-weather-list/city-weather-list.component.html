@@ -1,0 +1,7 @@
+<div class="flex justify-center items-center h-screen">
+    <div class="flex justify-center space-x-16 ">
+        <app-city-weather *ngFor="let city of cities" [city]="city" [routerLink]="['/WeatherDetail', city.name]"></app-city-weather>
+        <app-add-city-weather (onAddCityWeather)="handleAddCityWeather()"></app-add-city-weather>    
+    </div>
+    
+</div>

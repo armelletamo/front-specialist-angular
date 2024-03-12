@@ -212,12 +212,8 @@
   </div>
 </nav>
 
-<main class="bg-white h-screen">
-  <div class="content">
-    <div class="flex justify-center space-x-16">
-      <app-city-weather *ngFor="let city of cities" [city]="city"></app-city-weather>
-      <app-add-city-weather (onAddCityWeather)="handleAddCityWeather()"></app-add-city-weather>
-    </div>
+<main class="bg-white">
+  <div>
     <!-- <div class="left-side">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -372,4 +368,4 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
-<router-outlet />
+<router-outlet/>
