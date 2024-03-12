@@ -62,10 +62,10 @@
                     </div>
                 </div>
                 <div class="flex">
-                    <div class="w-32 bg-white  shadow-md overflow-hidden h-full m-2" *ngFor="let city of cityWeather?.weekWeather">
+                    <div class="w-32 bg-white overflow-hidden h-full m-3" *ngFor="let city of cityWeather?.weekWeather">
                         <div class="p-4 flex flex-col items-center justify-between">
                             <div class="text-lg font-bold uppercase mb-10 ">{{city?.day}}</div>
-                            <div [ngSwitch]="city?.description" class="w-12 mb-12 flex justify-center">
+                            <div [ngSwitch]="city?.description" class="w-16 h-24 flex justify-center">
                                 <svg *ngSwitchCase="'Snowing'" version="1.1" id="Layer_1"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                     x="0px" y="0px" viewBox="0 0 473.931 473.931"

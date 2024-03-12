@@ -28,7 +28,7 @@ export class WeatherCityService {
         {
           day:'Tuesday',
           temperature:'18',
-          description:'Sunny'
+          description:'Rain'
         },
         {
           day:'Wednesday',
@@ -65,7 +65,7 @@ export class WeatherCityService {
         {
           day:'Tuesday',
           temperature:'18',
-          description:'Sunny'
+          description:'Rain'
         },
         {
           day:'Wednesday',
@@ -105,7 +105,7 @@ export class WeatherCityService {
         {
           day:'Tuesday',
           temperature:'18',
-          description:'Sunny'
+          description:'Rain'
         },
         {
           day:'Wednesday',
@@ -142,7 +142,7 @@ export class WeatherCityService {
         {
           day:'Tuesday',
           temperature:'18',
-          description:'Sunny'
+          description:'Rain'
         },
         {
           day:'Wednesday',
@@ -179,7 +179,7 @@ export class WeatherCityService {
         {
           day:'Tuesday',
           temperature:'18',
-          description:'Sunny'
+          description:'Rain'
         },
         {
           day:'Wednesday',
