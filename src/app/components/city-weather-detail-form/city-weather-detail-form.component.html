@@ -1,0 +1,83 @@
+<div class="border-b border-gray-900/10 pb-12">
+    <h2 class=" font-semibold leading-7 text-gray-900 p-6 text-2xl">Add new city weather</h2>
+    <form [formGroup]="cityForm" *ngIf="cityForm"
+        class="space-y-4 bg-white p-6 rounded-xl  shadow-md justify-center items-center h-screen"
+        (ngSubmit)="onSubmit()">
+        <div class="flex items-center">
+            <label for="name" class="block text-lg font-medium text-gray-900 mr-5 flex-shrink-0 sm:col-span-6">Name:</label>
+            <div class="mt-2 sm:col-span-6">
+                <input id="name" type="text" formControlName="name"
+                    class="mt-1  block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                <div *ngIf="form['name'].errors && (form['name'].dirty || form['name'].touched)"
+                    class="mt-1 text-red-500 text-xs">
+                    <small class="error" *ngIf="form['name'].errors['required']">Name is required.</small>
+                    <small class="error" *ngIf="form['name'].errors['minlength']">Name must be at least 2 characters
+                        long.</small>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex items-center">
+            <label for="temperature"
+                class="block text-lg font-medium text-gray-900 mr-5 flex-shrink-0 sm:col-span-6">Temperature:</label>
+            <div class="mt-2 sm:col-span-6">
+                <input id="temperature" type="text" formControlName="temperature"
+                    class="mt-1  block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+        </div>
+        <div class="flex items-center">
+            <label for="description"
+                class="block text-lg font-medium text-gray-900 mr-5 flex-shrink-0">Description:</label>
+            <div class="mt-2">
+                <input id="description" type="text" formControlName="description"
+                    class="mt-1  block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+                    <div *ngIf="form['description'].errors && (form['description'].dirty || form['description'].touched)"
+                    class="mt-1 text-red-500 text-xs">
+                    <small class="error" *ngIf="form['description'].errors['minlength']">description must be at least 5 characters
+                        long.</small>
+                </div>
+                </div>
+        </div>
+        <div class="flex items-center">
+            <label for="minTemp" class="block text-lg font-medium text-gray-900 mr-5 flex-shrink-0">Min
+                Temperature:</label>
+            <div class="mt-2">
+                <input id="minTemp" type="text" formControlName="minTemp"
+                    class="mt-1  block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+        </div>
+        <div class="flex items-center">
+            <label for="maxTemp" class="block text-lg font-medium text-gray-900 mr-5 flex-shrink-0">Max
+                Temperature:</label>
+            <div class="mt-2">
+                <input id="maxTemp" type="text" formControlName="maxTemp"
+                    class="mt-1  block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+        </div>
+        <div class="flex items-center">
+            <label for="image" class="block text-lg font-medium text-gray-900 mr-5 flex-shrink-0">Image URL:</label>
+            <div class="mt-2">
+                <input id="image" type="text" formControlName="image"
+                    class="mt-1  block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+        </div>
+        <div class="flex items-center">
+            <label for="wind" class="block text-lg font-medium text-gray-900 mr-5 flex-shrink-0">Wind:</label>
+            <div class="mt-2">
+                <input id="wind" type="text" formControlName="wind"
+                    class="mt-1  block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+        </div>
+        <div class="flex items-center">
+            <label for="humidity" class="block text-lg font-medium text-gray-900 mr-5 flex-shrink-0">Humidity:</label>
+            <div class="mt-2">
+                <input id="humidity" type="text" formControlName="humidity"
+                    class="mt-1  block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+            </div>
+        </div>
+        <button type="submit"
+            class="mt-2 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-lg font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+            Submit
+        </button>
+    </form>
+</div>

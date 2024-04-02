@@ -16,34 +16,34 @@ export class WeatherCityService {
       description: 'Cloudy',
       minTemp: '18°',
       maxTemp: '26°',
-      wind:'9 km',
-      humidity:'30%',
-      image:'background-image:url(/assets/img/tunis.svg)',
-      weekWeather:[
+      wind: '9 km',
+      humidity: '30%',
+      image: 'background-image:url(/assets/img/tunis.svg)',
+      weekWeather: [
         {
-          day:'Monday',
-          temperature:'16',
-          description:'Cloudy'
+          day: 'Monday',
+          temperature: '16',
+          description: 'Cloudy'
         },
         {
-          day:'Tuesday',
-          temperature:'18',
-          description:'Rain'
+          day: 'Tuesday',
+          temperature: '18',
+          description: 'Rain'
         },
         {
-          day:'Wednesday',
-          temperature:'20',
-          description:'Sunny'
+          day: 'Wednesday',
+          temperature: '20',
+          description: 'Sunny'
         },
         {
-          day:'Thursday',
-          temperature:'10',
-          description:'Storm'
+          day: 'Thursday',
+          temperature: '10',
+          description: 'Storm'
         },
         {
-          day:'Friday',
-          temperature:'-1',
-          description:'Snowing'
+          day: 'Friday',
+          temperature: '-1',
+          description: 'Snowing'
         }
       ]
     },
@@ -53,34 +53,34 @@ export class WeatherCityService {
       description: 'Snowing',
       minTemp: '-15°',
       maxTemp: '12°',
-      wind:'15 km',
-      humidity:'65%',
-      image:'background-image:url(/assets/img/france.svg)',
-      weekWeather:[
+      wind: '15 km',
+      humidity: '65%',
+      image: 'background-image:url(/assets/img/france.svg)',
+      weekWeather: [
         {
-          day:'Monday',
-          temperature:'16',
-          description:'Cloudy'
+          day: 'Monday',
+          temperature: '16',
+          description: 'Cloudy'
         },
         {
-          day:'Tuesday',
-          temperature:'18',
-          description:'Rain'
+          day: 'Tuesday',
+          temperature: '18',
+          description: 'Rain'
         },
         {
-          day:'Wednesday',
-          temperature:'20',
-          description:'Sunny'
+          day: 'Wednesday',
+          temperature: '20',
+          description: 'Sunny'
         },
         {
-          day:'Thursday',
-          temperature:'10',
-          description:'Storm'
+          day: 'Thursday',
+          temperature: '10',
+          description: 'Storm'
         },
         {
-          day:'Friday',
-          temperature:'-1',
-          description:'Snowing'
+          day: 'Friday',
+          temperature: '-1',
+          description: 'Snowing'
         }
       ]
     },
@@ -93,34 +93,34 @@ export class WeatherCityService {
       description: 'Sunny',
       minTemp: '22°',
       maxTemp: '30°',
-      wind:'12 km',
-      humidity:'64%',
-      image:'background-image:url(/assets/img/rabat.svg)',
-      weekWeather:[
+      wind: '12 km',
+      humidity: '64%',
+      image: 'background-image:url(/assets/img/rabat.svg)',
+      weekWeather: [
         {
-          day:'Monday',
-          temperature:'16',
-          description:'Cloudy'
+          day: 'Monday',
+          temperature: '16',
+          description: 'Cloudy'
         },
         {
-          day:'Tuesday',
-          temperature:'18',
-          description:'Rain'
+          day: 'Tuesday',
+          temperature: '18',
+          description: 'Rain'
         },
         {
-          day:'Wednesday',
-          temperature:'20',
-          description:'Sunny'
+          day: 'Wednesday',
+          temperature: '20',
+          description: 'Sunny'
         },
         {
-          day:'Thursday',
-          temperature:'10',
-          description:'Storm'
+          day: 'Thursday',
+          temperature: '10',
+          description: 'Storm'
         },
         {
-          day:'Friday',
-          temperature:'-1',
-          description:'Snowing'
+          day: 'Friday',
+          temperature: '-1',
+          description: 'Snowing'
         }
       ]
     },
@@ -130,34 +130,34 @@ export class WeatherCityService {
       description: 'Storm',
       minTemp: '-15°',
       maxTemp: '12°',
-      wind:'20 km',
-      humidity:'20%',
-      image:'background-image:url(/assets/img/qatar.svg)',
-      weekWeather:[
+      wind: '20 km',
+      humidity: '20%',
+      image: 'background-image:url(/assets/img/qatar.svg)',
+      weekWeather: [
         {
-          day:'Monday',
-          temperature:'16',
-          description:'Cloudy'
+          day: 'Monday',
+          temperature: '16',
+          description: 'Cloudy'
         },
         {
-          day:'Tuesday',
-          temperature:'18',
-          description:'Rain'
+          day: 'Tuesday',
+          temperature: '18',
+          description: 'Rain'
         },
         {
-          day:'Wednesday',
-          temperature:'20',
-          description:'Sunny'
+          day: 'Wednesday',
+          temperature: '20',
+          description: 'Sunny'
         },
         {
-          day:'Thursday',
-          temperature:'10',
-          description:'Storm'
+          day: 'Thursday',
+          temperature: '10',
+          description: 'Storm'
         },
         {
-          day:'Friday',
-          temperature:'-1',
-          description:'Snowing'
+          day: 'Friday',
+          temperature: '-1',
+          description: 'Snowing'
         }
       ]
     },
@@ -167,34 +167,34 @@ export class WeatherCityService {
       description: 'Rain',
       minTemp: '-3°',
       maxTemp: '10°',
-      wind:'8 km',
-      humidity:'56%',
-      image:'background-image:url(/assets/img/rabat.svg)',
-      weekWeather:[
+      wind: '8 km',
+      humidity: '56%',
+      image: 'background-image:url(/assets/img/rabat.svg)',
+      weekWeather: [
         {
-          day:'Monday',
-          temperature:'16',
-          description:'Cloudy'
+          day: 'Monday',
+          temperature: '16',
+          description: 'Cloudy'
         },
         {
-          day:'Tuesday',
-          temperature:'18',
-          description:'Rain'
+          day: 'Tuesday',
+          temperature: '18',
+          description: 'Rain'
         },
         {
-          day:'Wednesday',
-          temperature:'20',
-          description:'Sunny'
+          day: 'Wednesday',
+          temperature: '20',
+          description: 'Sunny'
         },
         {
-          day:'Thursday',
-          temperature:'10',
-          description:'Storm'
+          day: 'Thursday',
+          temperature: '10',
+          description: 'Storm'
         },
         {
-          day:'Friday',
-          temperature:'-1',
-          description:'Snowing'
+          day: 'Friday',
+          temperature: '-1',
+          description: 'Snowing'
         }
       ]
     },
@@ -213,4 +213,23 @@ export class WeatherCityService {
       this.mockWeatherCityData.push(notIncludedCityWeather[0]);
     }
   }
+  public addCityWeatherDataToLocalStorage(newCity: City): void {
+    let cities = localStorage.getItem('cities');
+
+    cities = cities ? JSON.parse(cities) : [];
+    if (Array.isArray(cities)) {
+      const cityExists = cities?.some(city => city.name === newCity.name);
+      if (!cityExists) {
+        cities.push(newCity);
+
+        localStorage.setItem('cities', JSON.stringify(cities));
+
+        console.log(`${newCity.name} added to local storage.`);
+      } else {
+        console.log(`${newCity.name} already exists in local storage.`);
+      }
+
+    }
+  }
+
 }
